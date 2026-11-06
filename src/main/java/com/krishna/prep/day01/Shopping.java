@@ -14,8 +14,5 @@ public class Shopping {
         System.out.println("SubTotal: " + subtotal);
         System.out.println("Tax: " + withTax );
         System.out.println("Total: " + total);
-
-        System.out.println(17%2);
-        System.out.println(17/2);
     }
 }

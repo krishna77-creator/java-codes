@@ -11,7 +11,6 @@ public class EvenOddChecker {
 
         boolean isEven = number % 2 == 0;
         System.out.println("IsEven: " + isEven);
-        System.out.println(-17 % 2);
         scanner.close();
       }
 }
