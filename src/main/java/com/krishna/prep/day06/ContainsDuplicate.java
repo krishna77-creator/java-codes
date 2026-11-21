@@ -1,6 +1,5 @@
 package com.krishna.prep.day06;
 
-import java.util.Arrays;
 
 public class ContainsDuplicate {
     public static boolean containsDup(int[] nums) {
