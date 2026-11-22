@@ -13,4 +13,9 @@ public class Payment {
         return amount > 1000;
     }
 
+    Payment(String id, double amount, String currency){
+        this.id = id;
+        this.amount = amount;
+        this.currency = currency;
+    }
 }
