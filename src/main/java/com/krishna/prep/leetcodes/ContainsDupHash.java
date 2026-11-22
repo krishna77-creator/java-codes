@@ -1,4 +1,4 @@
-package com.krishna.prep.LeetCodes;
+package com.krishna.prep.leetcodes;
 
 import java.util.HashSet;
 
