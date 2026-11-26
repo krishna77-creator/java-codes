@@ -8,7 +8,7 @@ public class Payment {
 
     public Payment(String id, double amount, String currency){
         this.id = id;
-        this.amount = amount;
+        setAmount(amount);
         this.currency = currency;
     }
 
@@ -33,6 +33,9 @@ public class Payment {
     public void setAmount(double amount){
         if(amount > 0){
             this.amount = amount;
+        }
+        else{
+            throw new IllegalArgumentException("Amount should be positive:- " + amount);
         }
     }
 
